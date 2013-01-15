@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000" >
+
+    <RelativeLayout
+        android:id="@+id/StartSodrzina"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+       >
+
+        <ImageView
+            android:id="@+id/BackgroundImage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@android:drawable/bottom_bar" />
+        <ImageView
+        
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/coece" />
+        <ImageView
+            android:id="@+id/HairImage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/b1" />
+        <ImageView
+            android:id="@+id/ClothesImage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@android:drawable/bottom_bar" />
+        
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/StartText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/topMargin"
+            android:layout_marginLeft="@dimen/sideMargin"
+            android:layout_marginRight="@dimen/sideMargin"
+            android:text="pofp gfddfidfgoidf oi dfoij fdoi gdfioj ofdpgfd pkfdgdf pfd gfdok dspfokd pfdog p pfodg dfp gfddfidfgoidf oi dfoij fdoi gdfioj dfoijfdgoi dofig"
+            android:textColor="#000" />
+    </RelativeLayout>
+
+    
+</RelativeLayout>
