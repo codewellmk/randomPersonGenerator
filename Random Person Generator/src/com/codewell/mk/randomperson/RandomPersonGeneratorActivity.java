@@ -140,6 +140,7 @@ public class RandomPersonGeneratorActivity extends Activity {
 			result += ". ";
 
 		}
+		
 		if (god>55){
 			result += "Мојата единствена преокупација е да  ";
 			result += nad_55[r.nextInt(nad_55.length)];
